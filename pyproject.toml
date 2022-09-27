@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "token-subgraph-fetcher"
+version = "0.1.0"
+description = ""
+authors = ["Jem <0x0xjem@gmail.com>"]
+readme = "README.md"
+#packages = [{include = "token_subgraph_fetcher"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+pandas = "^1.5.0"
+subgrounds = "^1.0.1"
+jupyter = "^1.0.0"
+notebook = "^6.4.12"
+ipykernel = "^6.16.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
