@@ -2,7 +2,6 @@ tasks:
   - name: Install
     init: |
       pyenv install
-      pyenv activate
       curl -sSL https://install.python-poetry.org/ | python -
       export PATH="/home/gitpod/.local/bin:$PATH"
       poetry install
